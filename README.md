@@ -4,8 +4,6 @@ El cliente A sube `plano.txt`. Mientras A sigue conectado, B encuentra el archiv
 
 <a href="https://github.com/shaw207/gestor-archivos-distribuido/raw/refs/heads/main/docs/sesion-terminal.mp4"><img src="docs/terminal.webp" width="1100" alt="Grabación de la ventana de terminal durante la subida, el listado y la comprobación del fichero."></a>
 
-La vista previa acorta la espera entre clientes. Pulsa la imagen para descargar la grabación completa de la ventana (33,8 s).
-
 Chengxun Wu preparó los [Dockerfiles](despliegue/imagenes) y los [manifiestos de Kubernetes](despliegue/k8s) para desplegar un broker y dos réplicas con almacenamiento NFS. La demo se ejecutó en WSL 2 con un directorio local compartido. En una prueba separada de descarga, la copia de cinco bytes tenía un SHA-256 distinto del original.
 
 <details>
