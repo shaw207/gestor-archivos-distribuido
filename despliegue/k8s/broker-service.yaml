@@ -1,0 +1,14 @@
+# Alumno: Chengxun Wu
+apiVersion: v1
+kind: Service
+metadata:
+  name: broker-service
+spec:
+  type: NodePort
+  selector:
+    app: broker
+  ports:
+  - name: tcp-port
+    port: 32002
+    targetPort: 32002
+    nodePort: 32002
